@@ -4,11 +4,19 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
 }
+
 * {
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+}
+.principal {
+    background-image: url("img/Background.png");
+}
+.container {
+    height: 100vh;
 }
